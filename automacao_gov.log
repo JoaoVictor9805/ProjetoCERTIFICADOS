@@ -1,0 +1,64 @@
+2026-09-25 15:48:15,295 - INFO - --- Iniciando automação do portal gov.br ---
+2026-09-25 15:48:15,295 - INFO - Tentando abrir o Google Chrome...
+2026-09-25 15:48:15,296 - ERROR - Falha crítica ao tentar abrir o Chrome: Could not create the process ""C:\Program Files\Google\Chrome\Application\chrome.exe}" https://det.sit.trabalho.gov.br/login?r=%2Fservicos"
+Error returned by CreateProcess: (2, 'CreateProcess', 'O sistema não pode encontrar o arquivo especificado.')
+Traceback (most recent call last):
+  File "C:\Users\joao.oliveira\Desktop\ProjetoCERTIFICADOS\.venv\Lib\site-packages\pywinauto\application.py", line 1038, in start
+    (h_process, _, dw_process_id, _) = win32process.CreateProcess(
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        None, 					# module name
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        work_dir,				# If None - use parent's starting directory.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start_info)				# STARTUPINFO structure.
+        ^^^^^^^^^^^
+pywintypes.error: (2, 'CreateProcess', 'O sistema não pode encontrar o arquivo especificado.')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\joao.oliveira\Desktop\ProjetoCERTIFICADOS\main.py", line 32, in <module>
+    Application(backend="uia").start(caminho_web)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\joao.oliveira\Desktop\ProjetoCERTIFICADOS\.venv\Lib\site-packages\pywinauto\application.py", line 1052, in start
+    raise AppStartError(message)
+pywinauto.application.AppStartError: Could not create the process ""C:\Program Files\Google\Chrome\Application\chrome.exe}" https://det.sit.trabalho.gov.br/login?r=%2Fservicos"
+Error returned by CreateProcess: (2, 'CreateProcess', 'O sistema não pode encontrar o arquivo especificado.')
+2026-09-25 15:48:20,080 - INFO - --- Iniciando automação do portal gov.br ---
+2026-09-25 15:48:20,081 - INFO - Tentando abrir o Google Chrome...
+2026-09-25 15:48:20,081 - ERROR - Falha crítica ao tentar abrir o Chrome: Could not create the process ""C:\Program Files\Google\Chrome\Application\chrome.exe}" https://det.sit.trabalho.gov.br/login?r=%2Fservicos"
+Error returned by CreateProcess: (2, 'CreateProcess', 'O sistema não pode encontrar o arquivo especificado.')
+Traceback (most recent call last):
+  File "C:\Users\joao.oliveira\Desktop\ProjetoCERTIFICADOS\.venv\Lib\site-packages\pywinauto\application.py", line 1038, in start
+    (h_process, _, dw_process_id, _) = win32process.CreateProcess(
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        None, 					# module name
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        work_dir,				# If None - use parent's starting directory.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        start_info)				# STARTUPINFO structure.
+        ^^^^^^^^^^^
+pywintypes.error: (2, 'CreateProcess', 'O sistema não pode encontrar o arquivo especificado.')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\joao.oliveira\Desktop\ProjetoCERTIFICADOS\main.py", line 32, in <module>
+    Application(backend="uia").start(caminho_web)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\joao.oliveira\Desktop\ProjetoCERTIFICADOS\.venv\Lib\site-packages\pywinauto\application.py", line 1052, in start
+    raise AppStartError(message)
+pywinauto.application.AppStartError: Could not create the process ""C:\Program Files\Google\Chrome\Application\chrome.exe}" https://det.sit.trabalho.gov.br/login?r=%2Fservicos"
+Error returned by CreateProcess: (2, 'CreateProcess', 'O sistema não pode encontrar o arquivo especificado.')
+2026-09-25 15:49:30,940 - INFO - --- Iniciando automação do portal gov.br ---
+2026-09-25 15:49:30,941 - INFO - Tentando abrir o Google Chrome...
+2026-09-25 15:49:33,158 - INFO - Comando de abertura enviado com sucesso.
+2026-09-25 15:49:33,159 - INFO - Procurando a janela do Chrome na área de trabalho...
+2026-09-25 15:49:33,465 - INFO - Janela do Chrome encontrada e pronta para uso.
+2026-09-25 15:49:33,465 - INFO - Buscando o botão 'Entrar com gov.br'...
+2026-09-25 15:49:33,756 - INFO - Clique no botão 'Entrar com gov.br' realizado.
+2026-09-25 15:49:35,761 - INFO - Buscando o botão 'Certificado digital'...
+2026-09-25 15:49:36,113 - INFO - Clique no botão 'Certificado digital' realizado com sucesso.
+2026-09-25 15:49:36,116 - INFO - --- Automação finalizada ---
